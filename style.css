@@ -169,6 +169,8 @@ body {
         position: relative;
         padding-right: 10px;
         background-color: antiquewhite;
+        display: grid;
+        grid-row-gap: 40px;
     }
 
     .logo-1 {
