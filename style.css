@@ -25,23 +25,7 @@ body {
 
 .cart-1 {
     padding: 20px;
-    background: linear-gradient(red, yellow, blue);
-    max-width: 300px;
-    height: 600px;
-    box-shadow: 10px 10px 10px 1px rgb(77, 70, 70);
-}
-
-.cart-2 {
-    padding: 20px;
-    background: linear-gradient(red, blue, yellow);
-    max-width: 300px;
-    height: 600px;
-    box-shadow: 10px 10px 10px 1px rgb(77, 70, 70);
-}
-
-.cart-3 {
-    padding: 20px;
-    background: linear-gradient(blue, yellow, red);
+    background: #fff;
     max-width: 300px;
     height: 600px;
     box-shadow: 10px 10px 10px 1px rgb(77, 70, 70);
@@ -61,8 +45,8 @@ body {
 .button-cart {
     padding: 10px 20px;
     background: none;
-    border: solid 1px #fff;
-    color: #fff;
+    border: solid 1px black;
+    color: black;
     cursor: pointer;
 }
 
@@ -165,6 +149,7 @@ body {
 
     .container {
         display: flex;
+        padding: 20px;
         flex-direction: column;
         position: relative;
         padding-right: 10px;
@@ -186,7 +171,8 @@ body {
     }
 
     .image{
-        padding-left: 20px;
+        display: flex;
+        justify-content: center;
     }
 
     .cart-1 {
